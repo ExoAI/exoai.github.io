@@ -113,7 +113,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :"https://github.com/ucl-exoplanets"
+  github           :
   gitlab           :
   google_plus      :
   keybase          :
@@ -275,4 +275,3 @@ defaults:
     values:
       layout: single
       author_profile: false
-        
