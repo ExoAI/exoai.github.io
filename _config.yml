@@ -104,7 +104,7 @@ author:
   avatar           : "/assets/images/ExoAI_trans_small.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : #"I am an amazing person."
   location         : #"Somewhere"
-  email            :
+  email            : "ingo@star.ucl.ac.uk"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -113,7 +113,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "ingo1807"
   gitlab           :
   google_plus      :
   keybase          :
@@ -208,7 +208,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
+  # - jemoji
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -216,7 +216,7 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
+  # - jemoji
 
 
 # Archives

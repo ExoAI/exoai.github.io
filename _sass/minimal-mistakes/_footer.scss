@@ -4,7 +4,7 @@
 
 .page__footer {
   @include clearfix;
-  float: left;
+  float: center;
   margin-left: 0;
   margin-right: 0;
   width: 100%;
@@ -26,9 +26,9 @@
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2em;
+    margin-top: 0.5em;
     max-width: 100%;
-    padding: 0 1em 2em;
+    padding: 0 1em 1em;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -43,6 +43,9 @@
       text-decoration: underline;
     }
   }
+   img {
+     height:3em;
+   }
 
   .fas,
   .fab,
@@ -52,10 +55,28 @@
   }
 }
 
+.page__footer-column {
+    float: left;
+    width: 33.33%;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Clearfix (clear floats) */
+.page__footer-row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
 .page__footer-copyright {
+  text-align: center;
   font-family: $global-font-family;
   font-size: $type-size-7;
 }
+
 
 .page__footer-follow {
   ul {
