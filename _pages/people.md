@@ -1,7 +1,8 @@
 ---
 title: "The Team"
-layout: splash
 permalink: /people/
+layout: splash
+
 intro:
   - excerpt: 'The people currently involved in ExoAI `type="center"`'
 
