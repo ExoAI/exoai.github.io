@@ -4,11 +4,36 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "About"
     url: /about/
-  # - title: "People"
-  #   url: /people/
-  # - title: "Publications"
-  #   url: /publications/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "People"
+    url: /people/
+  - title: "Projects"
+    url: /projects/
+  - title: "Publications"
+    url: /publications/
+  - title: "Software"
+    url: /software/
+
+taurex_docs:
+  - title: Getting Started
+    url: /software/taurex/
+    children:
+      - title: "Installation"
+        url: /software/taurex/installation
+      - title: "The Input folder"
+        url: /software/taurex/xsec
+      - title: "Running with parallelisation"
+        url: /software/taurex/parallel
+      - title: "Bug reporting"
+        url: /software/taurex/bugs
+
+  - title: The Parameter File
+    url: /software/taurex/paramterfile
+    children:
+      - title: "Tranmission Forward model"
+        url: /software/taurex/forward/transmission/
+      - title: "Emission Forward model "
+        url: /software/taurex/forward/emission/
+      - title: "Tranmission Retrieval"
+        url: /software/taurex/retrieval/transmission/
+      - title: "Emission Retrieval"
+        url: /software/taurex/retrieval/emission/

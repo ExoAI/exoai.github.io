@@ -2,7 +2,7 @@ import numpy as np
 import string as str
 import bibtexparser
 
-FILENAME = '_bibliography/ref.bib'
+FILENAME = '_data/ref.bib'
 OUTFILE = '_includes/bib.html'
 
 def format_authors(al):
@@ -77,7 +77,7 @@ with open(FILENAME,'r') as database:
     data = bibtexparser.load(database)
 
 #output file 
-out = open(OUTFILE,'wb') 
+out = open(OUTFILE,'w')
 
 
 Ncite = len(data.entries)

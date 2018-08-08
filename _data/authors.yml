@@ -1,0 +1,19 @@
+# /_data/authors.yml
+
+ExoAI:
+  name: " "
+  email: "exoai.ucl@gmail.com"
+  bio: "Deciphering Exoplanets"
+  avatar: "/assets/images/exoai_logo.png"
+
+
+ingo:
+  name: "Ingo Waldmann"
+  email: "ingo@ucl.ac.uk"
+  bio: "In touch with his inner penguin"
+  avatar: "/assets/images/waldman.jpg"
+
+taurex:
+  name: "TauREx"
+  bio: "Exoplanet Retrieval"
+  avatar: "/assets/images/taurex_logo.png"
