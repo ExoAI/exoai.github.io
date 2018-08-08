@@ -260,7 +260,7 @@ compress_html:
 collections:
   software_docs:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:name/
 
 # Defaults
 defaults:
