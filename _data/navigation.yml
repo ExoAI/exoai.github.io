@@ -23,7 +23,7 @@ taurex_docs:
         url: /software/taurex/xsec
       - title: "Running with parallelisation"
         url: /software/taurex/parallel
-      - title: "Bug reporting"
+      - title: "Trouble-shooting"
         url: /software/taurex/bugs
 
   - title: "The Parameter File"
