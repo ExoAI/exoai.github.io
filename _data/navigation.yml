@@ -45,3 +45,6 @@ taurex_docs:
         url: /software/taurex/plotting
       - title: "nest_out.pickle"
         url: /software/taurex/nest_out
+
+  - title: "Miscellaneous"
+    url: /software/taurex/misc

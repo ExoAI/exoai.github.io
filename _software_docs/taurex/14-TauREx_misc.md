@@ -16,4 +16,13 @@ There are various other, more specialised modes available to run TauREx, how to 
 
 ## Disequilibrium chemistry inputs
 
+External input files for temperature-pressure profiles and chemical abundance profiles can be provided using the following routine
+
+```python
+create_spectrum_chemprofile.py
+```
+
+We will add documentation for this mode soon. If you want to use it, please just email ingo@star.ucl.ac.uk for now.
+
+
 ## Ariel and JWST binning

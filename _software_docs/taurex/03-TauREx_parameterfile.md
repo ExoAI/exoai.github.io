@@ -213,6 +213,44 @@ ace_co_bounds | float list || Equilibrium chemistry C/O ratio bounds
 
 Parameter | Value | Unit| Explanation
 --- | --- | --- | --- | ---
-run | True/False || run downhill minimisation 
+run | True/False || run downhill minimisation
 type | ascii || type of minimisation to use: Nelder-Mead, Powell, CG, BFGS, Newton-CG, L-BFGS-B, TNC, COBYLA, SLSQP, dogleg, trust-ncg. See scipy.optimize.minimize documentation
 options |dictionary || additional minimisation options, e.g.: {‘verbose’:False}
+
+### MultiNest
+`[MultiNest]` handles sampling routine based on the MultiNest library. This is the standard.
+
+Parameter | Value | Unit| Explanation
+--- | --- | --- | ---
+run | True/False || Run MultiNest
+resume | True/False || resume from previous run
+verbose | True/False || run in verbose
+nest_path | PATH || sampling chains director
+sampling_eff | ascii || sampling efficiency mode (default=parameter)
+n_live_points | int || number of live points
+max_iter | int || maximum no. of iterations (0=inf)
+multimodes | True/False || search for multiple modes
+nclust_par | int || parameters on which to cluster, e.g. if nclust_par = 3, it will cluster on the first 3 parameters only. If ncluster_par = -1 it clusters on all parameters.
+max_modes | int || maximum number of modes
+const_eff | int || run in constant efficiency mode
+evidence_tolerance | float || set log likelihood tolerance. If change is smaller, multinest will have converged
+mode_tolerance | float || set mode tolerance
+imp_sampling | True/False || Run with importance sampling
+out_filename | PATH || output path (default=default)
+
+
+### PolyChord
+
+`[PolyChord]` handles the PolyChord sampling parameters
+
+Parameter | Value | Unit| Explanation
+--- | --- | --- | ---
+run | True/False || Run PolyChord
+resume | True/False || resume from previous run
+nlive_pdim | int || number of life points per sampling dimension (total points = nlive * nDim)
+nrepeats | int || number of repeats per sample (decreases correlation in evidence).
+path | PATH || sampling chains directory
+file_root | ascii || root file prefix
+clustering | True/False || attempt clustering of likelihood
+precision | float || Likelihood convergence precision
+out_filename | PATH || output path (default=default)
