@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : " "
-  avatar           : "/assets/images/exoai_logo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/exoai_logo2.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Deciphering Exoplanets"
   location         :
   email            :
