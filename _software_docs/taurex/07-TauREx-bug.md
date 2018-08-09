@@ -1,5 +1,5 @@
 ---
-title: "TauREx Input Folder"
+title: "TauREx Troubles"
 permalink: /software/taurex/bugs
 last_modified_at: 2018-08-05
 toc: false
