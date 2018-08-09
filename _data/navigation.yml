@@ -14,7 +14,7 @@ main:
     url: /software/
 
 taurex_docs:
-  - title: Getting Started
+  - title: "Getting Started"
     url: /software/taurex/
     children:
       - title: "Installation"
@@ -26,7 +26,7 @@ taurex_docs:
       - title: "Bug reporting"
         url: /software/taurex/bugs
 
-  - title: The Parameter File
+  - title: "The Parameter File"
     url: /software/taurex/paramterfile
     children:
       - title: "Tranmission Forward model"
@@ -37,3 +37,11 @@ taurex_docs:
         url: /software/taurex/retrieval/transmission/
       - title: "Emission Retrieval"
         url: /software/taurex/retrieval/emission/
+
+  - title: "The Output"
+    url: /software/taurex/output
+    children:
+      - title: "Plotting"
+        url: /software/taurex/plotting
+      - title: "nest_out.pickle"
+        url: /software/taurex/nest_out
