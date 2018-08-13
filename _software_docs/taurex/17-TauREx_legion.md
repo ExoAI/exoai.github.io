@@ -1,5 +1,5 @@
 ---
-title: "TauREx Cluster:LEGION/GRACE"
+title: "TauREx Cluster:LEGION/GRACE/MYRIAD"
 permalink: /software/taurex/legion
 last_modified_at: 2018-08-13
 toc: true
@@ -14,7 +14,7 @@ Running TauREx on the UCL HPC facilities (Legion/Grace/Myriad/Thomas/Aristotle) 
 
 
 Fortunately, all UCL HPC systems work in the same way, so you can easily transfer your setup between, say, Legion and Grace. They have extensive documentation and user examples [here](https://wiki.rc.ucl.ac.uk/wiki/Category:User_Guide). We will only discuss Legion and Grace here.
-There are differences between Legion and Grace. Legion is a very heterogeneous system allowing small (<10 core) jobs, whilst Grace has a minimum requirement of 32 cores per job. For a breakdown of the specifications, see [here](https://wiki.rc.ucl.ac.uk/wiki/RC_Systems#Thomas_technical_specs).
+There are differences between Legion, Myriad and Grace. Legion is a very heterogeneous system allowing small (<10 core) jobs, whilst Grace has a minimum requirement of 32 cores per job. For a breakdown of the specifications, see [here](https://wiki.rc.ucl.ac.uk/wiki/RC_Systems#Thomas_technical_specs).
 
 ## Folders
 
@@ -38,13 +38,20 @@ module load mpi4py/2.0.0/python3
 Note that you must unload the default intel libraries to get `mpi4py` loaded. Best add these to your `.bashrc`.
 
 
-## Installing MultiNest
+## Installing MultiNest & PyMultiNest
 
 After loading the above modules, installing MultiNest is relatively easy on Legion. Follow the instructions [here]({{ '/software/taurex/installation' | relative_url }}) and make sure you export your library path (best add to `.bashrc` as well):
 
 ```
 export LD_LIBRARY_PATH=[PATH TO MULTINEST]/lib:$LD_LIBRARY_PATH
 ```
+
+Finally, you must also install `pymultinest`. This is easily done with
+
+```
+pip install --user pymultinest
+```
+
 
 ## Submit Script
 
