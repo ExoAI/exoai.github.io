@@ -13,6 +13,10 @@ ingo:
   bio: "In touch with his inner penguin"
   avatar: "/assets/images/waldman.jpg"
 
+tiziano:
+  name: "Tiziano Zingales"
+  avatar: "/assets/images/tiziano_avatar.png"
+
 taurex:
   name: "TauREx"
   bio: "Exoplanet Retrieval"

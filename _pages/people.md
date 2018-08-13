@@ -16,12 +16,12 @@ feature_row1:
       url: "http://ingowaldmann.com"
       btn_label: "Personal Website"
       btn_class: "btn--inverse"
-    - image_path: /assets/images/PIP_Penguin-Close-Up.jpg
-      alt: "placeholder image"
-      title: "Tech Penguin"
-      excerpt: 'The techiest of the penguins'
-      url: "http://ingowaldmann.com"
-      btn_label: "Personal Website"
+    - image_path: /assets/images/tiziano.jpg
+      alt: "Tiziano and Telescope"
+      title: "Tiziano Zingales"
+      excerpt: 'Tiziano is a finishing UCL/INAF PhD student. He is the first author of the ExoGAN algorithm. In October 2018 he will move to work with Jeremy Leconte at the Observatoire de Bordeaux'
+      url: "https://arxiv.org/abs/1806.02906"
+      btn_label: "Link to ExoGAN"
       btn_class: "btn--inverse"
     - image_path: /assets/images/3174205.large.jpg
       alt: "placeholder image"
