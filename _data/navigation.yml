@@ -46,5 +46,13 @@ taurex_docs:
       - title: "nest_out.pickle"
         url: /software/taurex/nest_out
 
+  - title: "Running on Clusters"
+    url: /software/taurex/cluster
+    children:
+      - title: "Cobweb submit"
+        url: /software/taurex/cobweb
+      - title: "Legion/Grace"
+        url: /software/taurex/legion
+
   - title: "Miscellaneous"
     url: /software/taurex/misc
