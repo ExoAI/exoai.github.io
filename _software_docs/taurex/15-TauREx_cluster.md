@@ -13,14 +13,13 @@ excerpt: "version 2.6"
 TauREx can and is usually run on cluster computers. The following pages are very UCL specific but may be useful for other cluster setups.
 Please contact your system administrator for further information.
 
-For UCL people, we have the following clusters available:
+For UCL people, we have the following four main clusters available:
 
 - Cobweb (Exoplanets only)
 - Legion
-- Grace
 - Myriad
-- Thomas
-- Aristotle
+- Grace
+
 
 For a full specification list, see [here](https://wiki.rc.ucl.ac.uk/wiki/RC_Systems).
-You can apply for free accounts to any of them (best get accounts for Legion and Grace).
+You can apply for free accounts to all of them (Legion/Myriad is one application, Grace is separate).
