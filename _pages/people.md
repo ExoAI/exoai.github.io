@@ -23,13 +23,18 @@ feature_row1:
       url: "https://arxiv.org/abs/1806.02906"
       btn_label: "Link to ExoGAN"
       btn_class: "btn--inverse"
+    - image_path: /assets/images/george.jpg
+      alt: "George Cann"
+      title: "George Cann"
+      excerpt: 'George is a UKSA PhD student at University College London. He is working on characterising trace gases the Martian atmosphere.'
+    - image_path: /assets/images/PIP_Penguin-Close-Up.jpg
+      alt: "placeholder image"
+      title: "Gordon Yip"
+      excerpt: 'UCL CDT-DIS PhD student working on machine learning in exoplanet data analysis.'
     - image_path: /assets/images/3174205.large.jpg
       alt: "placeholder image"
-      title: "Data Penguin"
-      excerpt: 'The penguin with the data'
-      url: "http://ingowaldmann.com"
-      btn_label: "Personal Website"
-      btn_class: "btn--inverse"
+      title: "Nikos Nikolaos"
+      excerpt: 'PDRA in Machine Learning, starting October 2018'
 ---
 
 <!-- {% include feature_row id="intro" type="center" %} -->
