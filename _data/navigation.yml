@@ -49,9 +49,9 @@ taurex_docs:
   - title: "Running on Clusters"
     url: /software/taurex/cluster
     children:
-      - title: "Cobweb submit"
+      - title: "Cobweb"
         url: /software/taurex/cobweb
-      - title: "Legion/Grace"
+      - title: "Legion/Myriad/Grace"
         url: /software/taurex/legion
 
   - title: "Miscellaneous"

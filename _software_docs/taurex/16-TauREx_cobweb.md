@@ -29,8 +29,8 @@ As we are currently upgrading some of the software, this may be subject of chang
 
 - anaconda/3-4.4.0
 - lapack/3.8.0
-- multinest/3.10b18
-- mpi/mvapich/2-2.3b
+- multinest/3.11
+- mpi/openmpi/3.1.1-gcc7.2
 - compiler/gcc/7.2.0
 
 To see which modules are available
@@ -110,7 +110,7 @@ DATADIR=/share/data/ingo/repos/TauREx
 cd $DATADIR
 
 ##run job
-mpirun -np $NP -hostfile $PBS_NODEFILE python taurex.py -p [PARAMETER FILE] --plot
+mpirun -np $NP -x PATH -x LD_LIBRARY_PATH --machinefile $PBS_NODEFILE python taurex.py -p [PARAMETER FILE] --plot
 ```
 
 You need to set several parameters here:
@@ -137,7 +137,8 @@ This sets the number of nodes required and the number of processors per node. Ta
 ```
 RAM memory requirement per node. Each node has a maximum of 256 Gb of RAM memory at the moment.
 
-## QSUB/QDEL/QSTAT
+
+# QSUB/QDEL/QSTAT
 
 Once you have your submit script. You're ready to submit it to Cobweb. You can do this with
 
@@ -162,4 +163,77 @@ If you need to cancel all your jobs
 
 ```
 qdel all
+```
+
+## Trouble shooting
+
+### Missing python libraries
+
+You may find that you are missing python libraries but cannot install them using conda or pip. You can easily install all python packages locally to your `home` directory using
+
+```
+pip install --user [PACKAGE NAME]
+```
+
+
+### Running on less than 24 cores per node
+
+If you run a job that requires less than the full node, you may have to change your submit script slightly. Say, you want to run 3 jobs with 8 cores each.
+You may need to limit your number of PSM contexts. There are 16 contexts per node. If you run 8 jobs, you could run 5 contexts per job (i.e. 15 contexts). Generally speaking, it's easiest if you divide your number of cores by two to get the number of contexts.
+
+Contexts can be set with the enviroment variable:
+
+```
+export PSM_RANKS_PER_CONTEXT=4
+```
+and export the variable to openmpi with
+
+```
+mpirun -x PSM_RANKS_PER_CONTEXT ...
+```
+
+An example submit script is given below:
+
+```
+#! /bin/bash
+#PBS -S /bin/bash
+
+#################################
+## Script to run Tau-REx on Cobweb
+##
+## DATADIR    : data directory (e.g. /share/data/taurex)
+## SCRATCHDIR : temporary scratch dir. gets deleted at the end
+## RUNDIR     : same as SCRATCHDIR but can include subfolders
+## OUTDIR     : final results folder (DATADIR=OUTDIR usually)
+##
+## NP         : number of total cpus, i.e. nodes x ppn
+##################################
+
+## Name of job displayed in the queue
+#PBS -N [JOBNAME]
+
+## Queue to submit to: gpu/compute/test
+#PBS -q compute
+
+##run parameters
+#PBS -l walltime=30:00:00             #Maximum runtime: HH:MM:SS
+#PBS -l nodes=1:ppn=8                #NODES/CPUs required
+#PBS -l mem=20gb                      #Memory requirement
+
+##error output and path variables
+#PBS -j oe
+#PBS -V
+
+##Number of total cores for mpirun command
+NP=24
+
+##Limit number of inifinband contexts per node. Max. of 16 contexts per node
+export PSM_RANKS_PER_CONTEXT=4
+
+##setting up path
+DATADIR=/share/data/ingo/repos/TauREx
+cd $DATADIR
+
+##run job
+mpirun -np $NP -x PATH -x LD_LIBRARY_PATH -x PSM_RANKS_PER_CONTEXT --machinefile $PBS_NODEFILE python taurex.py -p [PARAMETER FILE] --plot
 ```
