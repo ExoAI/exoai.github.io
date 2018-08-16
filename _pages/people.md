@@ -29,8 +29,8 @@ feature_row1:
       excerpt: 'George is a UKSA PhD student at University College London. He is working on characterising trace gases the Martian atmosphere.'
     - image_path: /assets/images/gordon.jpg
       alt: "placeholder image"
-      title: "Gordon Yip"
-      excerpt: 'Gordon (Kai Hou) is a UCL CDT-DIS (Data Intensive Science) PhD student working on machine learning in exoplanet data analysis. He is also an active developer of Taurex, whose work is to retrieve atmospheric information directly from the light-curves.'
+      title: "Gordon (Kai Hou)"
+      excerpt: 'Gordon is a UCL CDT-DIS (Data Intensive Science) PhD student working on machine learning in exoplanet data analysis. He is also an active developer of Taurex, whose work is to retrieve atmospheric information directly from the light-curves.'
     - image_path: /assets/images/3174205.large.jpg
       alt: "placeholder image"
       title: "Nikos Nikolaos"
