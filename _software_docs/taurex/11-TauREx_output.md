@@ -2,7 +2,7 @@
 title: "TauREx Output"
 permalink: /software/taurex/output
 last_modified_at: 2018-08-05
-toc: true
+toc: false
 sidebar:
   nav: taurex_docs
 author_profile: true

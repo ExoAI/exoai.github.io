@@ -21,6 +21,10 @@ george:
   name: "George Cann"
   avatar: "/assets/images/george_avatar.jpg"
 
+gordon:
+  name: "Gordon Yip"
+  avatar: "/assets/images/gordon_avatar.jpg"
+
 taurex:
   name: "TauREx"
   bio: "Exoplanet Retrieval"
