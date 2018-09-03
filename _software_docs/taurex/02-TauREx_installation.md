@@ -105,6 +105,12 @@ $ sudo make install
 
 Make sure that it correctly finds the gcc, gfortran (or icc, ifort) compilers, BLAS and LAPACK libraries and OpenMPI libraries. CMAKE will complain if it doesn’t.
 
+If you have multiple compilers on your system, cmake sometimes has issues detecting the correct compiler, escpecially `gfortran` is often an issue. To force it to use a certain compiler, you can specify its `path` with
+
+```
+$ sudo cmake -D CMAKE_FC_COMPILER=[PATH_TO_EXECUTABLE]/gfortran ..
+```  
+
 If you are using a Mac, you need to soft-link the .dylib libraries to .so version. You do not need to do that on a linux system. Go to the library folder and /lib and set up soft links from .dylib to .so libraries.
 
 These files need to have softlinks to .so endings
