@@ -66,3 +66,7 @@ exogan_docs:
         url: /software/exogan/installation
       - title: "Installing Singularity"
         url: /software/exogan/singularity
+  - title: "Training ExoGAN"
+    url: /software/exogan/train
+  - title: "ExoGAN retrieval"
+    url: /software/exogan/retrieval
