@@ -30,16 +30,16 @@ The transmission spectra and the parameters necessary to generate them are assem
 Using the inpainting technique introduced by Brandon Amos (<http://bamos.github.io/2016/08/09/deep-completion>) ExoGAN reconstructs both the parameters array and any missing part of the spectrum. 
 
 <figure>
-	 <img src="../../assets/images/before_par.png" alt="beforew" style="margin: auto;width:220px;height:220px;"/>
-	 <img src="../../assets/images/masked_wfc3.png" alt="maskedw" style="margin: auto;width:220px;height:220px;"/>
-	 <img src="../../assets/images/predicted_wfc3.png" alt="predictedw" style="margin: auto;width:220px;height:220px;"/>
+	 <img src="../../assets/images/before_par.png" alt="beforew" style="margin: auto;width:200px;height:200px;"/>
+	 <img src="../../assets/images/masked_wfc3.png" alt="maskedw" style="margin: auto;width:200px;height:200px;"/>
+	 <img src="../../assets/images/predicted_wfc3.png" alt="predictedw" style="margin: auto;width:200px;height:200px;"/>
      <figcaption> Left: input spectrum together with the parameters pixels. Centre: masked ASPA leaving Hubble/WFC3 wavelengths only. Right: ExoGAN completed ASPA given the middle ASPA.</figcaption>
 </figure>
 
 <figure>
-	 <img src="../../assets/images/before_par.png" alt="beforepar" style="margin: auto;width:220px;height:220px;"/>
-	 <img src="../../assets/images/masked_par.png" alt="maskedpar" style="margin: auto;width:220px;height:220px;"/>
-	 <img src="../../assets/images/predicted_par.png" alt="predictedpar" style="margin: auto;width:220px;height:220px;"/>
+	 <img src="../../assets/images/before_par.png" alt="beforepar" style="margin: auto;width:200px;height:200px;"/>
+	 <img src="../../assets/images/masked_par.png" alt="maskedpar" style="margin: auto;width:200px;height:200px;"/>
+	 <img src="../../assets/images/predicted_par.png" alt="predictedpar" style="margin: auto;width:200px;height:200px;"/>
      <figcaption> Same of previous figure but only masking the atmospheric forward model parameters.</figcaption>
 </figure>
 
