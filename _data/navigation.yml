@@ -56,3 +56,13 @@ taurex_docs:
 
   - title: "Miscellaneous"
     url: /software/taurex/misc
+
+
+exogan_docs:
+  - title: "Getting Started"
+    url: /software/exogan/
+    children:
+      - title: "Installing ExoGAN"
+        url: /software/exogan/installation
+      - title: "Installing Singularity"
+        url: /software/exogan/singularity

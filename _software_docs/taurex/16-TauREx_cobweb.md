@@ -94,9 +94,12 @@ An example of a submit script to the scheduler is below. The script should have 
 #PBS -q compute
 
 ##run parameters
-#PBS -l walltime=30:00:00             #Maximum runtime: HH:MM:SS
-#PBS -l nodes=1:ppn=24                #NODES/CPUs required
-#PBS -l mem=20gb                      #Memory requirement
+##Maximum runtime: HH:MM:SS
+#PBS -l walltime=30:00:00       
+##NODES/CPUs required      
+#PBS -l nodes=1:ppn=24         
+##Memory requirement      
+#PBS -l mem=20gb                      
 
 ##error output and path variables
 #PBS -j oe

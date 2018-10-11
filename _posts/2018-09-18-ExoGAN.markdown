@@ -1,0 +1,14 @@
+---
+title: "Exoplanet characterisation with deep learning"
+author: tiziano
+toc: false
+tags:
+  - exoplanets
+  - exogan
+  - deep learning
+  - machine learning
+---
+
+Blogpost on ExoGAN
+
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/gan_schema.png){: .align-center}
