@@ -62,6 +62,8 @@ exogan_docs:
   - title: "Getting Started"
     url: /software/exogan/
     children:
+      - title: "ExoGAN concept"
+        url: /software/exogan/concept
       - title: "Installing ExoGAN"
         url: /software/exogan/installation
       - title: "Installing Singularity"
