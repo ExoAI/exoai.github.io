@@ -1,6 +1,6 @@
 ---
 title: "TauREx FAQ"
-permalink: /software/taurex/
+permalink: /software/taurex/FAQ
 last_modified_at: 2018-10-22
 toc: true
 sidebar:

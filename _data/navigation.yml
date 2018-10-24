@@ -57,6 +57,8 @@ taurex_docs:
   - title: "Miscellaneous"
     url: /software/taurex/misc
 
+  - title: "FAQ"
+    url: /software/taurex/FAQ
 
 exogan_docs:
   - title: "Getting Started"
