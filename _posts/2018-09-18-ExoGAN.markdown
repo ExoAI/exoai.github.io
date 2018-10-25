@@ -9,6 +9,6 @@ tags:
   - machine learning
 ---
 
-Blogpost on ExoGAN
+Blogpost on ExoGAN coming soon. 
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/gan_schema.png){: .align-center}
