@@ -12,7 +12,7 @@ feature_row1:
     - image_path: /assets/images/ingo_pic.jpg
       alt: "At AAS/DPS conference in Utah"
       title: "Ingo Waldmann"
-      excerpt: 'Ingo is the PI of ExoAI. He is a lecturer at the University College London and working on characterising extrasolar planets via studying their atmospheres.'
+      excerpt: 'Ingo is the PI of the ExoAI project. He is a lecturer at the University College London (UCL) and works on characterising extrasolar planets via studying their atmospheres. He is also heavily involved in the ESA-M4 Ariel space mission. '
       url: "http://ingowaldmann.com"
       btn_label: "Personal Website"
       btn_class: "btn--inverse"
@@ -33,25 +33,23 @@ feature_row1:
     - image_path: /assets/images/mario_morvan.jpg
       alt: "Climbing Mario"
       title: "Mario Morvan"
-      excerpt: 'Is a PhD student from the Centre of Doctoral Training in Data Intensive Science. Mario is working on machine learning approaches to data analysis and data detrending in exoplanet observations.'  
+      excerpt: 'Is a PhD student from the UCL Centre of Doctoral Training in Data Intensive Science. Mario is working on machine learning approaches to data analysis and data detrending in exoplanet observations.'  
 
     - image_path: /assets/images/george.jpg
       alt: "George Cann"
       title: "George Cann"
-      excerpt: 'George is a UK Space Agency PhD student at University College London. He is working on characterising trace gases the Martian atmosphere.'
+      excerpt: 'George is a UK Space Agency PhD student at UCL. He is working on characterising trace gases in the Martian atmosphere using atmospheric inverse retrievals.'
 
     - image_path: /assets/images/gordon.jpg
       alt: "placeholder image"
       title: "Gordon (Kai Hou)"
-      excerpt: 'Gordon is a UCL Centre of Doctoral Training in Data Intensive Science PhD student working on machine learning in exoplanet data analysis, in particular with application to directly imaged planets. He is also an active developer of Taurex, whose work is to retrieve atmospheric information directly from the light-curves.'
+      excerpt: 'Gordon is a UCL Centre of Doctoral Training in Data Intensive Science PhD student working on machine learning in exoplanet data analysis, in particular with application to directly imaged planets. He is also an active developer of the TauREx atmospheric retrieval framework.'
 
     - image_path: /assets/images/tiziano.jpg
       alt: "Tiziano and Telescope"
       title: "Tiziano Zingales"
-      excerpt: 'Tiziano is a finishing UCL/INAF PhD student. He is the first author of the ExoGAN algorithm. In October 2018 he will move to work with Jeremy Leconte at the Observatoire de Bordeaux'
-      url: "https://arxiv.org/abs/1806.02906"
-      btn_label: "Link to ExoGAN"
-      btn_class: "btn--inverse"
+      excerpt: 'Tiziano is a finishing UCL/INAF PhD student. His recent project involved atmospheric retrievals of exoplanets using deep neural networks. In October 2018 he moved to work with Jeremy Leconte at the Observatoire de Bordeaux'
+
 ---
 
 <!-- {% include feature_row id="intro" type="center" %} -->
