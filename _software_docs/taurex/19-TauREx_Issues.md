@@ -20,6 +20,7 @@ sh compile.sh
 ```
 
 1. Q: I received warnings when I was compiling the .cpp files, should I worry?
+   
    A: As long as you have the corresponding .so files, then everything should be okay.
 
 
@@ -39,6 +40,7 @@ sh compile.sh
 This session includes error messages or problems that may arise during the operation of TauREx.
 
 1. Q: I received this error message: KeyError[‘nest_map’]
+   
    A: This generally arises you are running TauREx using the MCMC sampling routine. The recommended sampler for TauREx is MultiNest Sampling. In your .par files please do the following:
    ```
    [Downhill]
