@@ -18,7 +18,7 @@ Here we mark down some of the most frequently asked questions from the community
 
 1. Q: fatal error: stdio.h: No such file or directory
 
-1. A: For Mac OS users: You will need to update Xcode, In a Terminal please type:
+   A: For Mac OS users: You will need to update Xcode, In a Terminal please type:
 ```
 xcode-select install
 ```
