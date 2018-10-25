@@ -22,8 +22,17 @@ george:
   avatar: "/assets/images/george_avatar.jpg"
 
 gordon:
-  name: "Gordon"
+  name: "Gordon Yip"
   avatar: "/assets/images/gordon_avatar.jpg"
+
+nikos:
+  name: "Nikos Nikolaou"
+  avatar: "/assets/images/Nikos.jpg"
+
+mario:
+  name: "Mario Morvan"
+  avatar: "/assets/images/mario_avatar.jpg"
+
 
 taurex:
   name: "TauREx"

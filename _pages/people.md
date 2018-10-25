@@ -16,6 +16,35 @@ feature_row1:
       url: "http://ingowaldmann.com"
       btn_label: "Personal Website"
       btn_class: "btn--inverse"
+
+    - image_path: /assets/images/3174205.large.jpg
+      alt: "Angelos Tsiaras place holder"
+      title: "Angelos Tsiaras"
+      excerpt: 'Angelos Tsiaras is a UK Space Agency / European Research Council PDRA working on data analysis in exoplanet characterisation. In particular Angelos is an expert in analysis of Hubble Space Telescope data as well as ground-based facilities.'
+      url: ""
+      btn_label: "Personal Website"
+      btn_class: "btn--inverse"
+
+    - image_path: /assets/images/Nikos.jpg
+      alt: "Nikos Nikolaou"
+      title: "Nikos Nikolaou"
+      excerpt: 'Nikos is a European Research Council PDRA working on scalable deep learning methods for exoplanet data analysis. His previous work focused on cost-sensitive learning, ensemble methods and information theory.'
+
+    - image_path: /assets/images/mario_morvan.jpg
+      alt: "Climbing Mario"
+      title: "Mario Morvan"
+      excerpt: 'Is a PhD student from the Centre of Doctoral Training in Data Intensive Science. Mario is working on machine learning approaches to data analysis and data detrending in exoplanet observations.'  
+
+    - image_path: /assets/images/george.jpg
+      alt: "George Cann"
+      title: "George Cann"
+      excerpt: 'George is a UK Space Agency PhD student at University College London. He is working on characterising trace gases the Martian atmosphere.'
+
+    - image_path: /assets/images/gordon.jpg
+      alt: "placeholder image"
+      title: "Gordon (Kai Hou)"
+      excerpt: 'Gordon is a UCL Centre of Doctoral Training in Data Intensive Science PhD student working on machine learning in exoplanet data analysis, in particular with application to directly imaged planets. He is also an active developer of Taurex, whose work is to retrieve atmospheric information directly from the light-curves.'
+
     - image_path: /assets/images/tiziano.jpg
       alt: "Tiziano and Telescope"
       title: "Tiziano Zingales"
@@ -23,18 +52,6 @@ feature_row1:
       url: "https://arxiv.org/abs/1806.02906"
       btn_label: "Link to ExoGAN"
       btn_class: "btn--inverse"
-    - image_path: /assets/images/george.jpg
-      alt: "George Cann"
-      title: "George Cann"
-      excerpt: 'George is a UKSA PhD student at University College London. He is working on characterising trace gases the Martian atmosphere.'
-    - image_path: /assets/images/gordon.jpg
-      alt: "placeholder image"
-      title: "Gordon (Kai Hou)"
-      excerpt: 'Gordon is a UCL CDT-DIS (Data Intensive Science) PhD student working on machine learning in exoplanet data analysis. He is also an active developer of Taurex, whose work is to retrieve atmospheric information directly from the light-curves.'
-    - image_path: /assets/images/3174205.large.jpg
-      alt: "placeholder image"
-      title: "Nikos Nikolaos"
-      excerpt: 'PDRA in Machine Learning, starting October 2018'
 ---
 
 <!-- {% include feature_row id="intro" type="center" %} -->
