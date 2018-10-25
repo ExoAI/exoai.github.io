@@ -1,7 +1,7 @@
 ---
 title: "TauREx FAQ"
 permalink: /software/taurex/FAQ
-last_modified_at: 2018-10-22
+last_modified_at: 2018-10-25
 toc: true
 sidebar:
   nav: taurex_docs
@@ -10,21 +10,13 @@ author: taurex
 excerpt: "version 2.6"
 ---
 
-Under Construction.
+If you reached this session, you may have encountered bugs, issues, or simply developed curiosity towards the software. 
 
-Here we mark down some of the most frequently asked questions from the community and our recommended solution to them.
+Please select from the sidebar the category that is most relevant to your problem. 
 
-## Compiling Issues
+For problems related bugs and error messages , please select 'Issues' from the sidebar.
 
-1. Q: fatal error: stdio.h: No such file or directory
+For General questions on TauREx, please select 'Q&A' from the sidebar.
 
-   A: For Mac OS users: You will need to update Xcode, In a Terminal please type:
-```
-xcode-select install
-```
 
-Caution: For users who have recently upgraded to Mac OS Mojave, if the above solution doesn't work, one could try the following commend:
 
-```
-open /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg
-```

@@ -40,7 +40,7 @@ Waldmann et al. (2015b), “Tau-REx II: Retrieval of Emission Spectra, ApJ, 813,
 - Ingo Waldmann
 - Marco Rocchetto
 - Tiziano Zingales
-- Kai Yip
+- Kai Hou Yip
 - Angelos Tsiaras
 
 

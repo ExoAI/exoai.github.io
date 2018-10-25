@@ -59,6 +59,12 @@ taurex_docs:
 
   - title: "FAQ"
     url: /software/taurex/FAQ
+    children:
+      - title: "Errors"
+      url: /software/taurex/issues
+      - title: "Q&A"
+      url: /software/taurex/QandA
+
 
 exogan_docs:
   - title: "Getting Started"
