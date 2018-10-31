@@ -34,7 +34,14 @@ sh compile.sh
    ```
    open /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg
    ```
+3. Q: OSError: dlopen(./library/xxxx.so, 10): image not found
 
+   A: This error arises when TauREx cannot find the necessary compiled `.so` file from the library. A likely cause for this error is simply that the `.so` does not exist. 
+   
+   A possible solution is to go into the `compile.sh` and un-comment the line where `.so` file was located, and run the following command after saving the changes:
+   
+   ```sh compile.sh```
+   
 ## TauREx execution Issues
 
 This session includes error messages or problems that may arise during the operation of TauREx.

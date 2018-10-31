@@ -25,6 +25,7 @@ Here are collected some of the most frequently asked questions on the software.
    A: There are three things you could check. 
    1. Examine the `INFO` coming out of the terminal when you run TauREx and look for the line:
       ```INFO - MultiNest library correctly loaded.```
+      
       This is to ensure Multinest Library is correctly installed on your machine.
    
    2. Set `verbose = True` in the `.par` file so that there will be output whilst multinest is running. 
