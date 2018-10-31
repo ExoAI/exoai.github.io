@@ -1,7 +1,7 @@
 ---
 title: "Issues on TauREx"
 permalink: /software/taurex/issues
-last_modified_at: 2018-10-25
+last_modified_at: 2018-10-31
 toc: true
 sidebar:
   nav: taurex_docs
@@ -30,7 +30,7 @@ sh compile.sh
    ```
    xcode-select install
    ```
-   For users who have recently upgraded to Mac OS Mojave, if the above solution doesn't work, one could try the following commend:
+   For users who have recently upgraded to Mac OS Mojave, if the above solution doesn't work, one could try the following command:
    ```
    open /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg
    ```
