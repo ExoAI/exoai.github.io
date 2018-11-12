@@ -1,7 +1,7 @@
 ---
 title: "Issues on TauREx"
 permalink: /software/taurex/issues
-last_modified_at: 2018-10-25
+last_modified_at: 2018-10-31
 toc: true
 sidebar:
   nav: taurex_docs
@@ -30,11 +30,18 @@ sh compile.sh
    ```
    xcode-select install
    ```
-   For users who have recently upgraded to Mac OS Mojave, if the above solution doesn't work, one could try the following commend:
+   For users who have recently upgraded to Mac OS Mojave, if the above solution doesn't work, one could try the following command:
    ```
    open /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg
    ```
+3. Q: OSError: dlopen(./library/xxxx.so, 10): image not found
 
+   A: This error arises when TauREx cannot find the necessary compiled `.so` file from the library. A likely cause for this error is simply that the `.so` does not exist. 
+   
+   A possible solution is to go into the `compile.sh` and un-comment the line where `.so` file was located, and run the following command after saving the changes:
+   
+   ```sh compile.sh```
+   
 ## TauREx execution Issues
 
 This session includes error messages or problems that may arise during the operation of TauREx.
