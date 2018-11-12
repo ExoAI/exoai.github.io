@@ -17,8 +17,8 @@ feature_row1:
       btn_label: "Personal Website"
       btn_class: "btn--inverse"
 
-    - image_path: /assets/images/3174205.large.jpg
-      alt: "Angelos Tsiaras place holder"
+    - image_path: /assets/images/angelos.jpg
+      alt: "Angelos Tsiaras"
       title: "Angelos Tsiaras"
       excerpt: 'Angelos Tsiaras is a UK Space Agency / European Research Council PDRA working on data analysis in exoplanet characterisation. In particular Angelos is an expert in analysis of Hubble Space Telescope data as well as ground-based facilities.'
       url: ""

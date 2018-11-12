@@ -1,6 +1,6 @@
 ---
 title: "Exoplanet characterisation with deep learning"
-author: tiziano
+author: ingo
 toc: false
 tags:
   - exoplanets
@@ -9,6 +9,6 @@ tags:
   - machine learning
 ---
 
-Blogpost on ExoGAN coming soon. 
+Blogpost on ExoGAN coming soon.
 
-![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/gan_schema.png){: .align-center}
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/gan1.png){: .align-center}

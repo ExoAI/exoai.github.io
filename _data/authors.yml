@@ -17,6 +17,10 @@ tiziano:
   name: "Tiziano Zingales"
   avatar: "/assets/images/tiziano_avatar.png"
 
+angelos:
+  name: "Angelos Tsiaras"
+  avatar: "/assets/images/angelos_avatar.jpg"
+
 george:
   name: "George Cann"
   avatar: "/assets/images/george_avatar.jpg"
