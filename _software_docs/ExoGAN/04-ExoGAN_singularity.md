@@ -14,7 +14,7 @@ excerpt: "version 1.0"
 
 For HPC facilities supporting `singularity` dockers, we have provided an ubuntu environment with tensorflow installed.
 
-Singularity can be obtained [here]({https://singularity.lbl.gov}) and the pre-configured image can be downloaded [here]({https://osf.io/6dxps/}). Download the file `ubuntu.simg` which is your ubuntu docker image containing `CUDA 9.0` and `Tensorflow`.
+Singularity can be obtained [here](https://singularity.lbl.gov) and the pre-configured image can be downloaded [here](https://osf.io/6dxps/). Download the file `ubuntu.simg` which is your ubuntu docker image containing `CUDA 9.0` and `Tensorflow`.
 
 ## Setting up singularity on Cobweb
 
