@@ -9,6 +9,13 @@ tags:
   - machine learning
 ---
 
-Blogpost on ExoGAN coming soon.
+This is project looked at deep learning applications for spectral retrieval of exoplanet spectra. Spectral retrievals are essentially a fancy way of fitting an amtosperhic spectrum to the observed data. This fitting usually takes several hours to days given current techniques in the field, where most of this time is spent on sampling ranges of the parameter space that will later on be rejected. This led us to the question "can we avoid most of this sampling and jump to the area of maximum likelihood (best solution space) directly?". This led us to develop the ExoGAN code. ExoGAN is a deep learning framework that uses the now well established generative adversarial neural net architecture. The original GAN paper in the field (Goodfellow et al 2016) can be found [here](https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf) and a great introductory blogpost on GANs can be found [here](https://towardsdatascience.com/generative-adversarial-networks-explained-34472718707a).
 
+So how does it work? In essence, ExoGAN learns how to map atmospheric parameters such as, for example, the abundance of water or atmospheric temperature to the full atmospheric spectrum obtained from a more classical atmospheric code (in our case the TauREx code). ExoGAN will learn this mapping from example only i.e. it has no idea about the underlying physics but learns this mapping from 10M parameter - spectra pairs.  
+
+An example of the training data product is in the figure below. The main part (top left) is the encoded atmospheric spectrum whereas the remaining fields are the atmospheric parameters. ExoGAN learns how to complete this image if, for example, only the atmopheric spectrum part is given.
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/gan1.png){: .align-center}
+
+So far, we obtain pretty good accuracies of ~80 - 90% for most atmospheric parameters. Though this is not perfect, it is already a great start to identify the parameter space near the maximum likelihood, which can then be sampled with more traditional fitting/retrieval. This year's challenge is to increase the accuracies to > 90% for all parameters. To do this, we will begin doing a large-scale hyper parameter optimisation on DiRAC's large GPU cluster this year. 
+
+The ExoGAN paper can be found [here](http://iopscience.iop.org/article/10.3847/1538-3881/aae77c) and the fully training data and code can be found [here](https://osf.io/6dxps/).
