@@ -60,15 +60,21 @@ The submit script works differently to cobweb. Here's an example:
 ```
 #! /bin/bash -l
 #$ -S /bin/bash
-#$ -N [JOBNAME]        #name of job in queue
+##name of job in queue
+#$ -N [JOBNAME]       
 #$ -V
-#$ -l h_rt=5:00:00     #maximum walltime
-#$ -l mem=10G          #maximum memory
-#$ -l tmpfs=10G        #maximum disk size
-#$ -pe mpi 16          #number of cores
-#$ -wd [PATH]          #path to working directory
+##maximum walltime
+#$ -l h_rt=5:00:00   
+##maximum memory  
+#$ -l mem=10G    
+##maximum disk size      
+#$ -l tmpfs=10G  
+##number of cores      
+#$ -pe mpi 16   
+##path to working directory       
+#$ -wd [PATH]          
 
-#environment variables
+##environment variables
 export MPLBACKEND="pdf"
 
 gerun python taurex.py -p [PARAMETERFILE] --plot
