@@ -21,7 +21,7 @@ feature_row1:
       alt: "Angelos Tsiaras"
       title: "Angelos Tsiaras"
       excerpt: 'Angelos Tsiaras is a UK Space Agency / European Research Council PDRA working on data analysis in exoplanet characterisation. In particular Angelos is an expert in analysis of Hubble Space Telescope data as well as ground-based facilities.'
-      url: ""
+      url: "http://www.angelostsiaras.com"
       btn_label: "Personal Website"
       btn_class: "btn--inverse"
 
