@@ -28,6 +28,9 @@ feature_row1:
     - image_path: /assets/images/nikos2.jpg
       alt: "Nikos Nikolaou"
       title: "Nikos Nikolaou"
+      url: "https://nnikolaou.github.io"
+      btn_label: "Personal Website"
+      btn_class: "btn--inverse"
       excerpt: 'Nikos is a European Research Council PDRA working on scalable deep learning methods for exoplanet data analysis. His previous work focused on cost-sensitive learning, ensemble methods and information theory.'
 
     - image_path: /assets/images/mario_morvan.jpg
