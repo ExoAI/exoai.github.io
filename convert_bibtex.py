@@ -40,21 +40,21 @@ def write_entry(ar,f,year=False):
         journal = format_journal(ar['journal'])
     except KeyError:
         journal = ''
-    
-    if year: 
+
+    if year:
         f.write('<h2> '+np.str(year)+'</h2>')
-    
-    
+
+
     f.write('<p style="margin-left: 40px;font-weight: bold">')
     f.write('<li>')
     try:
         f.write('<b><a target="_blank" href='+ar['link']+'>'+ar['title']+'</a></b>'+'   ('+ar['year']+')')
     except KeyError:
         try:
-            f.write('<b><a target="_blank" href='+ar['adsurl']+'>'+ar['title']+'</a></b>'+'   ('+ar['year']+')')   
+            f.write('<b><a target="_blank" href='+ar['adsurl']+'>'+ar['title']+'</a></b>'+'   ('+ar['year']+')')
         except KeyError:
             f.write(ar['title']+'   ('+ar['year']+')')
-        
+
     f.write('</li></p>\n')
     f.write('<p style="margin-left: 70px;line-height: 95%;">')
     f.write(format_authors(ar['author']))
@@ -68,15 +68,15 @@ def write_entry(ar,f,year=False):
     f.write('</font>')
     f.write('</p> \n')
     f.write('\n')
-    return f 
-    
+    return f
+
 
 
 #reading bibtex
-with open(FILENAME,'r') as database: 
+with open(FILENAME,'r') as database:
     data = bibtexparser.load(database)
 
-#output file 
+#output file
 out = open(OUTFILE,'w')
 
 
@@ -86,18 +86,45 @@ print(Ncite)
 years = []
 for i in range(Ncite):
     years.append(np.int(data.entries[i]['year']))
-    
+
+min_year = np.min(years)
+max_year = np.max(years)
+yearline = np.arange(min_year,max_year+1)[::-1]
+print('yearline ',yearline)
+
+print(min_year,max_year)
+
 print(years)
 sort_years = np.argsort(years)[::-1]
-# print(np.argsort(years))
+
+
 
 # print(data.entries[2]['link'])
 
-yearold = 3000
-for i in sort_years:
-    if years[i] < yearold:
-        yearold = years[i]
-        write_entry(data.entries[i],f=out,year=yearold)
-    else:
-        write_entry(data.entries[i],f=out)
-    
+print(type(data.entries[0]['year']))
+print(type(yearline[0]))
+
+for year in yearline:
+    yearmark = True
+    print('year idx ', year)
+    for i in range(Ncite):
+        if np.int(data.entries[i]['year']) == year:
+            if yearmark:
+                print('yearmark ',year)
+                write_entry(data.entries[i],f=out,year=year)
+                yearmark = False
+            else:
+                print(year)
+                write_entry(data.entries[i],f=out)
+
+
+
+# yearold = 3000
+# for i in sort_years:
+#     if years[i] < yearold:
+#         yearold = years[i]
+#         print('SAME YEAR ',data.entries[i])
+#         write_entry(data.entries[i],f=out,year=yearold)
+#     else:
+#         print('NEW YEAR ',data.entries[i])
+#         write_entry(data.entries[i],f=out)
