@@ -90,41 +90,17 @@ for i in range(Ncite):
 min_year = np.min(years)
 max_year = np.max(years)
 yearline = np.arange(min_year,max_year+1)[::-1]
-print('yearline ',yearline)
 
-print(min_year,max_year)
-
-print(years)
-sort_years = np.argsort(years)[::-1]
-
-
-
-# print(data.entries[2]['link'])
-
-print(type(data.entries[0]['year']))
-print(type(yearline[0]))
 
 for year in yearline:
     yearmark = True
-    print('year idx ', year)
+    # print('year idx ', year)
     for i in range(Ncite):
         if np.int(data.entries[i]['year']) == year:
             if yearmark:
-                print('yearmark ',year)
+                # print('yearmark ',year)
                 write_entry(data.entries[i],f=out,year=year)
                 yearmark = False
             else:
-                print(year)
+                # print(year)
                 write_entry(data.entries[i],f=out)
-
-
-
-# yearold = 3000
-# for i in sort_years:
-#     if years[i] < yearold:
-#         yearold = years[i]
-#         print('SAME YEAR ',data.entries[i])
-#         write_entry(data.entries[i],f=out,year=yearold)
-#     else:
-#         print('NEW YEAR ',data.entries[i])
-#         write_entry(data.entries[i],f=out)
