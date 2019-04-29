@@ -9,7 +9,7 @@ tags:
 ---
 
 
-Today we've published a paper on deep learning applied to Saturn in Nature Astronomy. The link to the paper is [here](XXX) and the non-paywall version is found [here](XXX). We've also got a press release [here](XXX).
+Today we've published a paper on deep learning applied to Saturn in Nature Astronomy. The link to the paper is [here](https://rdcu.be/bzuIt). We've also got a press release [here](https://www.eurekalert.org/pub_releases/2019-04/ucl-dlt042519.php).
 
 In this paper, we used neural networks to map the storms of Saturn's southern hemisphere. What we found was unexpected, large upwellings of ammonia, dragged up by the storms from the deep atmosphere of the planet.
 
