@@ -8,11 +8,12 @@ tags:
   - Planetary Science
 ---
 
-![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/saturn1.jpg){: .align-center}
 
 Today we've published a paper on deep learning applied to Saturn in Nature Astronomy. The link to the paper is [here](XXX) and the non-paywall version is found [here](XXX). We've also got a press release [here](XXX).
 
 In this paper, we used neural networks to map the storms of Saturn's southern hemisphere. What we found was unexpected, large upwellings of ammonia, dragged up by the storms from the deep atmosphere of the planet.
+
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/saturn1.jpg){: .align-center}
 
 It is probably fair to say that the Cassini-Huygens mission to Saturn and its moons was one of the most successful scientific missions ever conducted. Launched back in 1997, it was actively circling the Saturnian system for over 13 years. The quality and amount of data gathered truly revolutionised our understanding of Saturn and the outer planets.
 In September 2017, Cassini famously plunged itself into Saturn to avoid contaminating any of its moons in the future. Cassini is gone but the enormous data archive still holds many surprises. To me the biggest surprise was how very little had actually been fully analysed and remains in the archives. I’m not a planetary scientist by training, well I characterise exoplanets but that’s somewhat different, and I was astonished to find out that not only Saturn had huge archives ripe for re-analysis but most other planets (Venus, Mars, Jupiter etc) do too.
