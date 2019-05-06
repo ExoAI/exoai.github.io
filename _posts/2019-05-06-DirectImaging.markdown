@@ -11,7 +11,7 @@ tags:
 
 Discovering planets is a difficult task, and it is especially true for direct Imaging. In this blog post, I am going to briefly explain how neural network can be used to detect planets. 
 
-## Wait... What is direct Imaging?
+## Wait... What is Direct Imaging?
 
 Direct Imaging is one of the commonly used techniques to discover the existence of far away planets. In principle, a telescope is tasked to look at a specific stellar system and literally, ‘took a picture’ of the system. However, as you can imagine, the light from the parent star will be so much brighter than the planet (think about how our Sun lights up the sky even though it is 149 million km away ) and thus astronomers will usually put a mask at the star in order to substantially lower the brightness of the star.
 
@@ -32,4 +32,4 @@ Our CNN is trained to classify whether a given image has a planet or not. Howeve
 This is a rough summary of what we did for this project. If you are interested to understand what we did, every tiny little detail of our project can be found [here](https://arxiv.org/abs/1904.06155). If you want to have a go for yourself, please feel free to download the code from our [Github](https://github.com/ucl-exoplanets/DI-Project) and the sorted data from [here](https://osf.io/ez7pk/).
 
 ## What's Next?
-We are going to apply our network to known planetary systems! 
+We are going to apply our network to known planetary systems! Stay tuned!
