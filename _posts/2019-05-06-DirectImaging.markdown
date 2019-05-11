@@ -1,6 +1,6 @@
 ---
 title: "Direct Imaging with deep learning"
-author: Gordon
+author: gordon
 toc: false
 tags:
   - Direct Imaging
