@@ -1,0 +1,36 @@
+---
+title: "Discovery of water vapour in a temperate atmosphere around a Super-Earth"
+author: ingo
+toc: false
+tags:
+  - Exoplanet
+  - K2-18b
+  - Deep learning
+  - Planetary Science
+---
+
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/k218b.jpg){: .align-center}
+
+Water vapour has been detected in the atmosphere of a super-Earth with habitable temperatures by UCL researchers in a world first.
+K2-18b, which is eight times the mass of Earth, is now the only planet orbiting a star outside the Solar System, or ‘exoplanet’, known to have both water and temperatures that could support life.
+
+The discovery, published today in Nature Astronomy, is the first successful atmospheric detection for an exoplanet orbiting in its star’s ‘habitable zone’, at a distance where water can exist in liquid form.
+
+First author, Dr Angelos Tsiaras (UCL Centre for Space Exochemistry Data (CSED)), said: “Finding water in a potentially habitable world other than Earth is incredibly exciting. K2-18b is not ‘Earth 2.0’ as it is significantly heavier and has a different atmospheric composition. However, it brings us closer to answering the fundamental question: Is the Earth unique?”
+
+The team used archive data from 2016 and 2017 captured by the ESA/NASA Hubble Space Telescope and developed open-source algorithms to analyse the starlight filtered through K2-18b’s atmosphere. The results revealed the molecular signature of water vapour, also indicating the presence of hydrogen and helium in the planet’s atmosphere.
+
+The authors believe that other molecules including nitrogen and methane may be present but, with current observations, they remain undetectable. Further studies are required to estimate cloud coverage and the percentage of atmospheric water present.
+
+The planet orbits the cool dwarf star K2-18, which is about 110 light years from Earth in the Leo constellation. Given the high level of activity of its red dwarf star, K2-18b may be more hostile than Earth and is likely to be exposed to more radiation.
+
+K2-18b was discovered in 2015 and is one of hundreds of super-Earths – planets with a mass between Earth and Neptune – found by NASA’s Kepler spacecraft. NASA’s TESS mission is expected to detect hundreds more super-Earths in the coming years.
+
+Co-author Dr Ingo Waldmann (UCL CSED), said: “With so many new super-Earths expected to be found over the next couple of decades, it is likely that this is the first discovery of many potentially habitable planets. This is not only because super-Earths like K2-18b are the most common planets in our Galaxy, but also because red dwarfs - stars smaller than our Sun - are the most common stars.”
+
+The next generation of space telescopes, including the NASA/ESA/CSA James Webb Space Telescope and ESA’s ARIEL mission, will be able to characterise atmospheres in more detail as they will carry more advanced instruments. ARIEL is expected to launch in 2028, and will observe 1,000 planets in detail to get a truly representative picture of what they are like.
+
+Professor Giovanna Tinetti (UCL CSED), co-author and Principal Investigator for ARIEL, said: “Our discovery makes K2-18 b one of the most interesting targets for future study. Over 4,000 exoplanets have been detected but we don’t know much about their composition and nature. By observing a large sample of planets, we hope to reveal secrets about their chemistry, formation and evolution.”
+
+ “This study contributes to our understanding of habitable worlds beyond our Solar System and marks a new era in exoplanet research, crucial to ultimately place the Earth, our only home, into the greater picture of the Cosmos,” said Dr Tsiaras.
+The research was funded by European Research Council and the UK Science and Technology Facilities Council which is part of UKRI.

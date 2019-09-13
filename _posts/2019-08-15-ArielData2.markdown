@@ -1,0 +1,15 @@
+---
+title: "Ariel Machine Learning Data Challenge Results!"
+author: ingo
+toc: false
+tags:
+  - exoplanets
+  - workshop
+  - ECML
+  - data challenge
+---
+
+The Ariel Machine Learning Data Challenge has concluded and we are excited to announce the winners at the European Machine Learning Conference ([ECML-PKDD](http://ecmlpkdd2019.org)) and the European Planetary Science Congress ([EPSC](https://www.epsc-dps2019.eu))
+The final LeaderBoard can be found [here](https://ariel-datachallenge.azurewebsites.net/ML/leaderboard/).
+
+Thanks to everyone who participated and congratulations again to the top people. It was a VERY close contest!
