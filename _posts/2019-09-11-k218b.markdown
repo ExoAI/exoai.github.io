@@ -9,10 +9,11 @@ tags:
   - Planetary Science
 ---
 
-![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/k218b.jpg){: .align-center}
-
 Water vapour has been detected in the atmosphere of a super-Earth with habitable temperatures by UCL researchers in a world first.
 K2-18b, which is eight times the mass of Earth, is now the only planet orbiting a star outside the Solar System, or ‘exoplanet’, known to have both water and temperatures that could support life.
+
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/k218b.jpg){: .align-center}
+
 
 The discovery, published today in Nature Astronomy, is the first successful atmospheric detection for an exoplanet orbiting in its star’s ‘habitable zone’, at a distance where water can exist in liquid form.
 
